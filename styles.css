@@ -1,0 +1,52 @@
+html {
+    background-image: url(Images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: antiquewhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    height: 20px;
+    display: inline;
+}
+
+a[href = "https://www.linkedin.com/in/abhisheksinghal276/"] {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: transparent;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a[href="https://github.com/abhisheksinghal276"] {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background-color: transparent;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+td > img[alt="My Photo"] {
+    
+    height: "200px";
+    width: "200px";
+}
+
+img[alt="Python Logo"] {
+    src: url(Images/python\ logo.png);
+    background-color:transparent;
+}
+
+img {
+    background-color: transparent;
+}
+
